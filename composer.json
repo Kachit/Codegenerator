@@ -1,0 +1,29 @@
+{
+    "name": "kachit/codegenerator",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "satooshi/php-coveralls": "dev-master"
+    },
+    "description": "PHP classes code generator",
+    "version": "0.0.1",
+    "keywords": ["codegenerator"],
+    "support": {
+        "email": "kachit@yandex.ru",
+        "source": "https://github.com/Kachit/Codegenerator"
+    },
+    "autoload": {
+        "psr-4": {"Kachit\\Codegenerator": "src/"}
+    },
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kachit",
+            "email": "kachit@yandex.ru",
+            "homepage": "https://github.com/kachit/",
+            "role": "Developer"
+        }
+    ]
+}
