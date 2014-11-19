@@ -14,7 +14,7 @@
         "source": "https://github.com/Kachit/Codegenerator"
     },
     "autoload": {
-        "psr-4": {"Kachit\\Codegenerator": "src/"}
+        "psr-4": {"Kachit\\Codegenerator\\": "src/"}
     },
     "type": "library",
     "license": "MIT",

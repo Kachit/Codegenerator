@@ -4,9 +4,12 @@
  *
  * @author Kachit
  */
+namespace Kachit\Codegenerator\Entity\Method;
+
 class Argument {
 
-    protected $name;
+    /**
+     * @var string
+     */
     protected $type;
-    protected $defaultValue;
 }

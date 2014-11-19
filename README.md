@@ -1,4 +1,4 @@
 Codegenerator
 =============
 
-PHP Codegenerator
+Codegenerator for PHP code
