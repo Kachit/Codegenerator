@@ -28,7 +28,7 @@ class Collection implements \IteratorAggregate {
      * @param EntityInterface[] $itemsList
      * @return $this;
      */
-    public function fill($itemsList) {
+    public function fill(array $itemsList) {
         foreach ($itemsList as $item) {
             $this->add($item);
         }

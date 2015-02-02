@@ -16,6 +16,11 @@ class Constants {
     const VISIBILITY_PROTECTED = 'protected';
     const VISIBILITY_PRIVATE = 'private';
 
+    /**
+     * Get visibilities
+     *
+     * @return array
+     */
     public static function getVisibilities() {
         return [
             self::VISIBILITY_PUBLIC,
