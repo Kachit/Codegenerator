@@ -4,7 +4,7 @@
  *
  * @author Kachit
  */
-namespace Kachit\Codegenerator;
+namespace Kachit\Codegenerator\Generator;
 
 class Classes {
 
