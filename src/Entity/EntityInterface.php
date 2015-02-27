@@ -6,7 +6,9 @@
  */
 namespace Kachit\Codegenerator\Entity;
 
-interface EntityInterface {
+use Kachit\Collection\ItemInterface;
+
+interface EntityInterface extends ItemInterface {
 
     /**
      * @return string

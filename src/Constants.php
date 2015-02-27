@@ -12,6 +12,11 @@ class Constants {
     const WORD_TRAIT = 'trait';
     const WORD_INTERFACE = 'interface';
 
+    const WORD_USE = 'use';
+    const WORD_EXTENDS = 'extends';
+    const WORD_IMPLEMENTS = 'implements';
+    const WORD_AS = 'as';
+
     const VISIBILITY_PUBLIC = 'public';
     const VISIBILITY_PROTECTED = 'protected';
     const VISIBILITY_PRIVATE = 'private';

@@ -64,10 +64,10 @@ class Classes extends Common {
     /**
      * Add property
      *
-     * @param EntityInterface $property
+     * @param Property $property
      * @return $this
      */
-    public function addProperty(EntityInterface $property){
+    public function addProperty(Property $property){
         $this->properties->add($property);
         return $this;
     }
@@ -75,10 +75,10 @@ class Classes extends Common {
     /**
      * Add method
      *
-     * @param EntityInterface $method
+     * @param Method $method
      * @return $this
      */
-    public function addMethod(EntityInterface $method){
+    public function addMethod(Method $method){
         $this->methods->add($method);
         return $this;
     }
@@ -86,10 +86,10 @@ class Classes extends Common {
     /**
      * Add constant
      *
-     * @param EntityInterface $constant
+     * @param Constant $constant
      * @return $this
      */
-    public function addConstant(EntityInterface $constant){
+    public function addConstant(Constant $constant){
         $this->constants->add($constant);
         return $this;
     }
@@ -97,11 +97,11 @@ class Classes extends Common {
     /**
      * Add trait
      *
-     * @param EntityInterface $trait
+     * @param Traits $trait
      * @param bool $needUse
      * @return $this
      */
-    public function addTrait(EntityInterface $trait, $needUse = false){
+    public function addTrait(Traits $trait, $needUse = false){
         $this->traits->add($trait);
         if ($needUse) {
             $this->uses->add($trait);
@@ -116,7 +116,7 @@ class Classes extends Common {
      * @param bool $needUse
      * @return $this
      */
-    public function addInterface(EntityInterface $interface, $needUse = false){
+    public function addInterface(Interfaces $interface, $needUse = false){
         $this->traits->add($interface);
         if ($needUse) {
             $this->uses->add($interface);

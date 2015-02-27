@@ -24,6 +24,16 @@ class Common implements EntityInterface {
     protected $docBlock;
 
     /**
+     * Get object ID
+     *
+     * @return mixed
+     */
+    public function getId() {
+        return $this->getName();
+    }
+
+
+    /**
      * @return mixed
      */
     public function getDocBlock() {
