@@ -6,7 +6,9 @@
  */
 namespace Kachit\Codegenerator\Generator;
 
-class Classes {
+use Kachit\Codegenerator\Common\Collection;
+
+class ClassItem {
 
     /**
      * @var string
@@ -48,7 +50,9 @@ class Classes {
      */
     protected $constants;
 
+    protected $formatter;
+
     public function generate() {
-        // TODO: Implement generate() method.
+
     }
 }

@@ -4,17 +4,17 @@
  */
 namespace Kachit\Codegenerator\Tests\Generator;
 
-use Kachit\Codegenerator\Generator\Classes;
+use Kachit\Codegenerator\Generator\ClassItem;
 
 class ClassesTest extends \PHPUnit_Framework_TestCase {
 
     /**
-     * @var Classes
+     * @var ClassItem
      */
     private $testable;
 
     protected function setUp() {
-        $this->testable = new Classes();
+        $this->testable = new ClassItem();
     }
 
     public function testFirst() {
